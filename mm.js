@@ -12,8 +12,11 @@ const messageMaker = () => {
     let phraseTwo= phraseSelector(secondPhraseArray);
     let phraseThree = phraseSelector(thirdPhraseArray);
 
-    return phraseOne+phraseTwo+phraseThree;
+    console.log(phraseOne+phraseTwo+phraseThree);
 }
+
+messageMaker();
+
 //Tests will go here
 //console.log(phraseSelector(firstPhraseArray));
-console.log(messageMaker());
+//console.log(messageMaker());
